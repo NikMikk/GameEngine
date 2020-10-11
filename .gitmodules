@@ -1,0 +1,3 @@
+[submodule "Torkel/vendor/spdlog"]
+	path = Torkel/vendor/spdlog
+	url = https://github.com/gabime/spdlog
