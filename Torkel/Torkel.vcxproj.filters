@@ -4,6 +4,9 @@
     <Filter Include="Torkel">
       <UniqueIdentifier>{5651E9D3-42F3-13AA-2BAE-27FE17EF9AFA}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Torkel\Events">
+      <UniqueIdentifier>{7A60B731-E620-3368-AF5B-7CE51BDB7744}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Torkel.h" />
@@ -16,9 +19,22 @@
     <ClInclude Include="src\Torkel\EntryPoint.h">
       <Filter>Torkel</Filter>
     </ClInclude>
+    <ClInclude Include="src\Torkel\Events\ApplicationEvent.h">
+      <Filter>Torkel\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Torkel\Events\Event.h">
+      <Filter>Torkel\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Torkel\Events\KeyEvent.h">
+      <Filter>Torkel\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Torkel\Events\MouseEvent.h">
+      <Filter>Torkel\Events</Filter>
+    </ClInclude>
     <ClInclude Include="src\Torkel\Log.h">
       <Filter>Torkel</Filter>
     </ClInclude>
+    <ClInclude Include="src\torkelpch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Torkel\Application.cpp">
@@ -27,5 +43,6 @@
     <ClCompile Include="src\Torkel\Log.cpp">
       <Filter>Torkel</Filter>
     </ClCompile>
+    <ClCompile Include="src\torkelpch.cpp" />
   </ItemGroup>
 </Project>

@@ -9,9 +9,6 @@ int main(int argc, char** argv)
 	Torkel::Log::Init();
 
 	TORKEL_CORE_WARN("Initialized Log!");
-	TORKEL_CORE_INFO("Hello!");
-	TORKEL_CORE_ERROR("Hello!");
-	TORKEL_CORE_CRITICAL("Hello!");
 
 	auto app = Torkel::CreateApplication();
 	app->Run();

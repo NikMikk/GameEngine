@@ -1,3 +1,4 @@
+#include "torkelpch.h"
 #include "Log.h"
 
 #include "spdlog/spdlog.h"
@@ -12,7 +13,7 @@ namespace Torkel
 	{
 		spdlog::set_pattern("%^[%T] %n: %v%$");
 
-		s_CoreLogger = spdlog::stdout_color_mt("TORKEL");
+		s_CoreLogger = spdlog::stdout_color_mt("TORKEL ENGINE");
 		s_CoreLogger->set_level(spdlog::level::trace);
 
 		s_ClientLogger = spdlog::stdout_color_mt("APP");
